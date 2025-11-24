@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-image: url(img/uva.jpg);
+    background-size: cover;      /* Faz a imagem cobrir toda a tela */
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+    background-position: center;  /* Centraliza a imagem */
+}
+
+.box {
+    background: white;
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+}
+
+h2 {
+    text-align: center;
+}
+
+button {
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    color: rgb(70, 0, 70);
+}
+
+.resultado {
+    margin-top: 20px;
+    background: #eef;
+    padding: 10px;
+    border-radius: 8px;
+}
