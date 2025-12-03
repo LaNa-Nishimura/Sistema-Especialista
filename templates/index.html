@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Especialista – Videiras</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+
+<div class="box">
+    <h2>Diagnóstico de Doenças em Videiras</h2>
+    <p>Selecione os sintomas observados:</p>
+
+    <form method="POST">
+        <label><input type="checkbox" name="manchas_amarelas"> Manchas amarelas</label><br>
+        <label><input type="checkbox" name="poeira_branca"> Pó branco</label><br>
+        <label><input type="checkbox" name="frutos_escurecidos"> Frutos escurecidos</label><br>
+        <label><input type="checkbox" name="folhas_murchas"> Folhas murchas</label><br>
+        <label><input type="checkbox" name="caule_lesoes"> Lesões no caule</label><br>
+        <label><input type="checkbox" name="manchas_marrons"> Manchas marrons</label><br>
+        <label><input type="checkbox" name="mofo_cinza"> Mofo cinza</label><br>
+        <label><input type="checkbox" name="galhos_quebradicos"> Galhos quebradiços</label><br>
+        <label><input type="checkbox" name="insetos"> Presença de insetos</label><br>
+        <label><input type="checkbox" name="solo_encharcado"> Solo encharcado</label><br>
+
+        <button type="submit">Diagnosticar</button>
+    </form>
+
+    {% if resultado %}
+    <div class="resultado">
+        <h3>Resultado:</h3>
+        {{ resultado|safe }}
+    </div>
+    {% endif %}
+</div>
+
+</body>
+</html>
