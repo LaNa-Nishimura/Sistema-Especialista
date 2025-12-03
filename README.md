@@ -1,5 +1,7 @@
 Sistema Especialista – Diagnóstico de Doenças em Videiras
+
 Alunas: Allana Paganini e Bianca Maccarini
+
 Descrição: Sistema especialista que identifica doenças em videiras a partir de sintomas visuais. Utiliza regras de produção e encadeamento para frente com Experta e interface web via Flask.
 
 Sintomas Monitorados:
