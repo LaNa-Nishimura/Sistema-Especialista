@@ -14,6 +14,7 @@ Tecnologias:
 Python 3.10.11, Flask, Experta, HTML/CSS
 
 Instruções para rodar o projeto após clonar o repositório:
+
 Abra o terminal do vscode e digite os seguintes comandos:
 1. python -m venv venv
 2. Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
